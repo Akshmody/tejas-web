@@ -63,13 +63,13 @@ const NavBar = () => {
             </Flex>
 
             <HStack spacing="3" alignItems="center" fontSize="lg">
+                <LinkButton text="About" href="/" />
+                <LinkButton text="Blogs" href="/" />
                 <LinkButton
-                    text="resume"
+                    text="Resume"
                     href="https://drive.google.com/file/d/14R12CJ37xZtXGVvSiG5dKGf1B4WRnJXs/view?usp=sharing"
                     target="_blank"
                 />
-
-                {/* <LinkButton text="about" href="/about" /> */}
 
                 <IconButton
                     aria-label="Toggle dark mode"

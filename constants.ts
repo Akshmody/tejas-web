@@ -4,20 +4,20 @@ import { DefaultSeoProps } from "next-seo";
 export const BASE_URL: string = "";
 
 export const PROJECT_LIST: Array<IProjectCardProps> = [
-    {
-        name: "Squadhelp",
-        description:
-            "Squadhelp is a largest and world's #1 naming platform and The best premium names on the web, curated by branding experts,available for immediate purchase",
-        link: "https://dev.squadhelp.com",
-        tags: ['Next.js', 'Tailwind CSS', 'Context API'],
-    },
-    {
-        name: "Notice Ninja",
-        description:
-            "NoticeNinja is a SaaS platform to Track, Manage, and Resolve all Tax and Compliance Notices",
-        link: "https://app.noticeninja.com",
-        tags: ['React', 'Redux', 'Ant Design'],
-    },
+    // {
+    //     name: "Squadhelp",
+    //     description:
+    //         "Squadhelp is a largest and world's #1 naming platform and The best premium names on the web, curated by branding experts,available for immediate purchase",
+    //     link: "https://dev.squadhelp.com",
+    //     tags: ['Next.js', 'Tailwind CSS', 'Context API'],
+    // },
+    // {
+    //     name: "Notice Ninja",
+    //     description:
+    //         "NoticeNinja is a SaaS platform to Track, Manage, and Resolve all Tax and Compliance Notices",
+    //     link: "https://app.noticeninja.com",
+    //     tags: ['React', 'Redux', 'Ant Design'],
+    // },
     {
         name: "Teenivo",
         description:
