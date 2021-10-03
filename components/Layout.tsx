@@ -67,7 +67,7 @@ const NavBar = () => {
                 <LinkButton text="Blogs" href="/" />
                 <LinkButton
                     text="Resume"
-                    href="https://drive.google.com/file/d/14R12CJ37xZtXGVvSiG5dKGf1B4WRnJXs/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1kwX55FomrkReObGaKVxiWFDFm9nzWOeG/view?usp=sharing"
                     target="_blank"
                 />
 
