@@ -1,8 +1,4 @@
-import { Box, Flex, Heading, HStack, IconButton, Link, Stack, Tag, Text, VStack } from "@chakra-ui/react";
-import NextLink from "next/link";
-import { AiFillGithub } from "react-icons/ai";
-import { BiLinkExternal } from "react-icons/bi";
-import { CgNpm } from "react-icons/cg";
+import { Box, Flex, Heading, Stack, Text, VStack } from "@chakra-ui/react";
 
 type EducationDetailsType = {
     programType: string,
