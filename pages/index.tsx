@@ -1,6 +1,7 @@
 import { Heading, Stack, Text } from "@chakra-ui/react";
 
 import { CustomLink } from "../components/CustomLink";
+import EducationDetails from "../components/Education";
 import Layout from "../components/Layout";
 import LinkCard from "../components/LinkCard";
 import { PROJECT_LIST } from "../constants";
@@ -34,9 +35,13 @@ const IndexPage = () => (
 
             <Text fontSize="xl">
                 I'm currently a Software Engineer at{" "}
-                <CustomLink href="https://infynno.com">Infynno Solutions</CustomLink>, where I build products using
-                React, Redux, Next.js and Tailwind CSS.
+                <CustomLink href="https://datomarlabs.com">Datomar Labs Inc.</CustomLink>, where I build products using
+                React, Redux, Next.js, Material UI and Tailwind CSS.
             </Text>
+            <Stack py={5} spacing={5}>
+                <Heading as="h3">Education</Heading>
+                <EducationDetails />
+            </Stack>
             <Stack py={5} spacing={5}>
                 <Heading as="h3">Projects</Heading>
                 <ProjectListComponent />
