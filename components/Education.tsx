@@ -79,8 +79,8 @@ const EducationCard = ({ education }: { education: EducationDetailsType }) => {
 
 const EducationDetails = () => {
     return <>
-        {EDUCATION_DETAILS.map((education) => (
-            <EducationCard education={education} />
+        {EDUCATION_DETAILS.map((education, index) => (
+            <EducationCard education={education} key={index} />
         ))}
     </>
 }

@@ -65,6 +65,7 @@ const NavBar = () => {
             <HStack spacing="3" alignItems="center" fontSize="lg">
                 <LinkButton text="About" href="/" />
                 <LinkButton text="Blogs" href="/" />
+                <LinkButton text="Roadmap" href="/roadmap" />
                 <LinkButton
                     text="Resume"
                     href="https://drive.google.com/file/d/1kwX55FomrkReObGaKVxiWFDFm9nzWOeG/view?usp=sharing"
